@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.897);
+
+}
+
+html {
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+h4 {
+    position: relative;
+    top: -1cm;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Compond_Intrest {
+    padding: 0 0.5cm 0cm;
+    height: 1cm;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.37);
+    border: 0;
+    font-family: Verdana,
+        Geneva,
+        Tahoma,
+        sans-serif;
+    background-color: rgba(127, 255, 212, 0.219);
+    color: white;
+    font-size: 12.5px;
+}
+
+input {
+    height: 1cm;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    border: 0;
+}
+
+.areaBody {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.897);
+    width: fit-content;
+    padding: 2cm 1cm 3cm;
+    animation: screen 0.8s linear;
+}
+
+@keyframes screen {
+    0% {
+        position: relative;
+        top: -10cm;
+    }
+
+    100% {
+        position: relative;
+        top: 0cm;
+    }
+}
+
+.btn {
+    position: relative;
+    top: 1cm;
+    word-spacing: 1cm;
+}
+
+.btn2 {
+    position: relative;
+    top: 1cm;
+    word-spacing: 1cm;
+}
+
+button {
+    padding: 0 0.5cm 0cm;
+    height: 1cm;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.37);
+    border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(127, 255, 212, 0.219);
+    color: white;
+}
+
+#ans {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -40px;
+}
+
+#ans2 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -40px;
+}
+
+.btn2 {
+    word-spacing: 1cm;
+}
+
+.cBtn {
+    width: fit-content;
+    position: relative;
+    color: white;
+    top: 2cm;
+    padding: 0.5cm 0.5cm 0.5cm;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+.cBtn:hover {
+    transition: all 0.4s linear;
+    background-color: rgba(170, 255, 0, 0.726);
+}
+
+
+
+
+
+.areaBody2 {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.897);
+    width: fit-content;
+    padding: 2cm 1cm 3cm;
+    display: none;
+    animation: screen2 0.8s linear;
+
+}
+
+@keyframes screen2 {
+    0% {
+        position: relative;
+        left: -10cm;
+    }
+
+    100% {
+        position: relative;
+        left: 0cm;
+
+    }
+}
+
+.sibtn {
+    width: fit-content;
+    position: relative;
+    color: white;
+    top: 2cm;
+    padding: 0.5cm 0.5cm 0.5cm;
+    border-radius: 50px;
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    background-color: yellowgreen;
+    cursor: pointer;
+    left: 1cm;
+}
+
+.sibtn:hover {
+    transition: all 0.4s linear;
+    background-color: rgba(170, 255, 0, 0.726);
+}
+
+@media screen and (max-width: 360px) {
+    .areaBody {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.897);
+        width: fit-content;
+        padding: 2cm 1cm 3cm;
+    }
+
+    .cBtn {
+        width: fit-content;
+        position: relative;
+        color: white;
+        top: 2cm;
+        padding: 0.5cm 0.5cm 0.5cm;
+        border-radius: 50px;
+        font-family: Arial,
+            Helvetica,
+            sans-serif;
+        background-color: yellowgreen;
+        cursor: pointer;
+        font-size: 10px;
+    }
+
+    .sibtn {
+        width: fit-content;
+        position: relative;
+        color: white;
+        top: 2cm;
+        padding: 0.5cm 0.5cm 0.5cm;
+        border-radius: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: yellowgreen;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    button {
+        font-size: 10px;
+    }
+
+    #Compond_Intrest {
+        font-size: 10px;
+
+    }
+}
+
+@media screen and(max-width: 280px) {
+    .areaBody {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.897);
+        width: fit-content;
+        padding: 2cm 1cm 3cm;
+    }
+
+    .cBtn {
+        width: fit-content;
+        position: relative;
+        color: white;
+        top: 2cm;
+        /* padding: 0.5cm 0.5cm 0.5cm; */
+        border-radius: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: yellowgreen;
+        cursor: pointer;
+        font-size: 10px;
+    }
+
+    button {
+        padding: 0 0.5cm 0cm;
+        height: 1cm;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.37);
+        border: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgba(127, 255, 212, 0.219);
+        color: white;
+        font-size: 10px;
+    }
+
+
+}

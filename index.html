@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="asserts/Logo.png" type="image/x-icon" id="icon">
+    <link rel="stylesheet" href="style.css">
+    <title>CI/SI Calculator</title>
+
+</head>
+
+<bod>
+    <div class="component">
+        <div class="areaBody">
+            <h4>Simple Interest Calculator</h3>
+                <div class="inpbox">
+                    <input type="number" id="principal" placeholder="Principal"><br><br>
+                    <input type="number" id="rate" placeholder="Rate of Intrest "><br><br>
+                    <input type="number" id="time" placeholder="Time period"><br><br>
+
+                </div>
+                <div class="btn">
+                    <button id="Simple Intrest" onclick="fun()">Simple Intrest</button>
+                    <button id="amount" onclick="fun0()">Amount</button>
+                </div>
+                <div id="ans">...</div>
+                <div class="cBtn" onclick="CI()">
+                    <h2 onclick="CI()">
+                        Compound Interest
+                    </h2>
+                </div>
+        </div>
+
+
+        <div class="areaBody2">
+            <h4>Compound Interest Calculator</h3>
+                <div class="inpbox2">
+                    <input type="number" id="principal2" placeholder="Principal"><br><br>
+                    <input type="number" id="rate2" placeholder="Rate of Intrest "><br><br>
+                    <input type="number" id="time2" placeholder="Time period"><br><br>
+
+                </div>
+                <div class="btn2">
+                    <button id="Compond_Intrest" onclick="funs()">Compound Intrest</button>
+                    <button id="ciamount" onclick="funS0()">Amount</button>
+                </div>
+                <div id="ans2">...</div>
+                <div class="Sibtn" onclick="SI()">
+                    <h2 onclick="SI()" class="sibtn">
+                        Simple Interest
+                    </h2>
+                </div>
+        </div>
+
+    </div>
+
+    </body>
+    <script src="main.js"></script>
+
+</html>
